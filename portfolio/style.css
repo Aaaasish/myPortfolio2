@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+ font-weight: bold;
+}
+
+
+
+/* navBar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    font-size: 3rem;
+}
+
+nav ul{
+    display: flex;
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+nav ul li{
+    justify-content: space-around;
+    margin: 0 63px;
+}
+
+nav ul li a{
+    color: rgb(3, 6, 39);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+}
+
+/* intro */
+
+.firstSection div{
+    width: 40%;
+    margin-top: 140px;
+}
+.firstSection{
+    display: flex;
+    
+}
+
+.leftSection .button{
+    padding: 12px;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 42px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 9px;
+}
+
+p1{
+    font-size: 120px;
+}
+
+h2{
+    font-size: xx-large;
+}
+.rightSection img{
+    width: 300px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.purple{
+    color: rgb(62, 6, 140);
+}
+
+.red{
+    color: rgb(216, 13, 13);
+}
+
+.rightSection img{
+    width: 600px;
+    margin-left: 400px;
+}
+
+ /* boxContainer */
+
+ /* about */
+.containerOne {
+    background-color: #510cdc;
+    padding: 4rem;
+    margin: 2rem 0;
+    border-radius: 60px;
+    width: 1400px;
+    margin: 2rem auto; 
+
+}
+
+.secondSection {
+    text-align: center;
+}
+
+.skillSectionOne h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skillSectionOne p {
+    font-size: 1.8em;
+    color: #ede4e4;
+}
+
+/* skills */
+
+.containerTwo {
+    background-color: #ee1010da;
+    padding: 4rem;
+    margin: 2rem 0;
+    border-radius: 60px;
+    width: 1400px;
+    margin: 2rem auto; 
+
+}
+
+.thirdSection {
+    text-align: center;
+}
+
+.skillSectionTwo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skillSectionTwo p {
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+/* projects */
+
+.containerThree {
+    background-color: #510cdc;
+    padding: 4rem;
+    margin: 2rem 0;
+    border-radius: 60px;
+    width: 1400px;
+    margin: 2rem auto; 
+
+}
+
+.fourthSection {
+    text-align: center;
+}
+
+.skillSectionThree h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skillSectionThree p {
+    font-size: 1.8em;
+    color: #ede4e4;
+}
+
+@keyframes moveCircle {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.movingCircle {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    animation: moveCircle 1s infinite linear;
+}
+
+
+.movingCircleTwo {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    animation: moveCircle 1s infinite linear;
+}
+body {
+    position: relative;
+} 
